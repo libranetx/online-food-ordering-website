@@ -1,0 +1,41 @@
+.navbar{
+    background-color: #000814;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px #ffd60a;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+
+    display: flex;
+
+    
+}
+
+.navbar a{
+    color: #ffd60a;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.navbar a:hover{
+    color:#f48c06 ;
+}
+.navbar a.active{
+  color: white;
+  background-color: #014f86;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  border-bottom: 2px solid #fff;
+}
+.leftnav{
+     color: #ffd60a;
+     /* padding-top:10px ; */
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: bold;
+     font-style: oblique;
+     font-size: 1.5rem;
+
+
+}

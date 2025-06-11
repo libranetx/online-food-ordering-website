@@ -1,0 +1,45 @@
+.fcard{
+    margin: 30px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 0 4px 12px rgb(255, 214, 10.1);
+    overflow: hidden;
+    border: 1px solid #ffd60a;
+    transition: transform 0.2s;
+
+
+}
+.fcard:hover {
+  transform: translateY(-20px);
+}
+.fimage{
+
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    }
+
+
+.fcard p{
+    font-size: 1.1rem;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.fcard h3{
+  font-size: 1.7rem;
+  margin-bottom: 0.5rem;
+font-family: serif;
+text-align: center;
+}
+
+.fbtn{
+
+  background-color: #ffd60a;
+ padding: 5px 10px;
+
+  border-radius: 14px;
+ 
+}
